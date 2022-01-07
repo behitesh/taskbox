@@ -1,7 +1,5 @@
-  name: 'UI Tests'
-
-on: push
-
+name: UI Tests
+on: [push]
 jobs:
   # Run interaction and accessibility tests with Axe
   interaction-and-accessibility:
